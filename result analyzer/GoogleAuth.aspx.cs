@@ -21,9 +21,9 @@ namespace result_analyzer
         SqlConnection con = new SqlConnection(WebConfigurationManager.ConnectionStrings["myconnectionstring"].ConnectionString);
 
         //your client id  
-        string clientid = "125926661032-ocuup25g2qvbpc8het2f5m3r2vu72kqp.apps.googleusercontent.com";
+        string clientid = "your_client_id";
             //your client secret  
-            string clientsecret = "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";
+            string clientsecret = "your_secret";
             //your redirection url  
             string redirection_url = "https://localhost:44341/GoogleAuth";
             string url = "https://accounts.google.com/o/oauth2/token";
