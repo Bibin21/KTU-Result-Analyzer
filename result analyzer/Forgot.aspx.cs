@@ -51,8 +51,8 @@ namespace result_analyzer
                 smtp.Host = "smtp.gmail.com";
                 smtp.EnableSsl = true;
                 NetworkCredential NetworkCred = new NetworkCredential();
-                NetworkCred.UserName = "ryzengamer00@gmail.com";
-                NetworkCred.Password = "eunbopnknnyxpngf";
+                NetworkCred.UserName = "your_email";
+                NetworkCred.Password = "app_password";
                 smtp.UseDefaultCredentials = true;
                 smtp.Credentials = NetworkCred;
                 smtp.Port = 587;
