@@ -1,0 +1,44 @@
+﻿body {
+}
+.bargraph {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    margin-left: 10px;
+    background-color: rgba(255,255,255,0.6) !important;
+    padding: 10px;
+    border-radius: 15px;
+    height: 110% !important;
+    margin-top: 0px !important;
+    padding-bottom: 70px;
+}
+.linegraph {
+    position: relative;
+    width: 100%;
+    margin-left: 10px;
+    background-color: rgba(255,255,255,0.6) !important;
+    padding: 10px;
+    margin-top: 50px !important;
+    height: 35% !important;
+    border-radius: 15px;
+    padding-bottom: 70px;
+}
+
+.detcontainer {
+    height: 50vh;
+    width: 100%;
+    display:flex;
+  
+}
+h2 {
+margin-top:10px;
+}
+.main {
+    width: 100%;
+    height: 100vh;
+}
+
+img {
+    width: 70% !important;
+    height: 80% !important;
+}

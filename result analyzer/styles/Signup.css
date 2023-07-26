@@ -1,0 +1,174 @@
+﻿
+@font-face {
+    font-family: 'Chakra Petch';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/chakrapetch/v9/cIf6MapbsEk7TDLdtEz1BwkWi6pgeL4.woff2) format('woff2');
+    unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+    font-family: 'Chakra Petch';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/chakrapetch/v9/cIf6MapbsEk7TDLdtEz1BwkWkKpgeL4.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Chakra Petch';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/chakrapetch/v9/cIf6MapbsEk7TDLdtEz1BwkWkapgeL4.woff2) format('woff2');
+    unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Chakra Petch';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/chakrapetch/v9/cIf6MapbsEk7TDLdtEz1BwkWn6pg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+* {
+    font-family: 'Chakra Petch' !important;
+}
+
+body {
+    background: linear-gradient( to top, #B1B7D1 0%, #B1B7D1 50%, 50%, #9254CD 100% );
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.signup {
+    color: white;
+    background-color: white;
+    text-align: center;
+    width: min-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    font-size: large;
+}
+.box {
+    position: relative;
+    background-color: #F3F1F1;
+    border-radius: 20px;
+    overflow: hidden;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transition: box-shadow 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.box:hover {
+    box-shadow: 0 14px 58px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+::-webkit-input-placeholder {
+    color: black !important;
+}
+
+:-moz-placeholder {
+    color: dimgrey !important;
+    opacity: 1;
+}
+
+::-moz-placeholder {
+    color: dimgrey !important;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: dimgrey !important;
+}
+
+::-ms-input-placeholder {
+    color: dimgrey !important;
+}
+input:not([type=submit]):focus {
+    border-bottom: 2px solid #9254CD !important;
+}
+::placeholder {
+    margin-left:5px !important;
+    color: dimgrey !important;
+}
+input:not([type=submit]) {
+    background-color: #F0F3F4 !important;
+    color: black !important;
+    border-radius: 10px !important;
+    padding-left:5px !important;
+}
+
+label {
+    font-size: 1.1rem !important;
+}
+.oauth-container:hover {
+    filter: brightness(95%);
+}
+.form {
+    font-weight:bold;
+   display:flex;
+   flex-direction:column;
+    margin:0px 40px;
+    width:300px;
+    height:fit-content;
+}
+    .form > TextBox {
+        height: 40px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        border-radius: 10px;
+    }
+
+    .form > input {
+        height:40px;
+        margin-bottom:15px;
+        margin-top:15px;
+        border-radius:10px;
+   
+    }
+.signupbtn {
+    font-weight:bolder;
+    color: white;
+    border: none;
+    background-color: #9254CD;
+    height: 40px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+        .form > input:hover {
+      transform:scale(1.03);
+        }
+button{
+font-size:medium;
+}
+    button:focus {
+      background-color:grey;
+    }
+h2 {
+    font-size: 25px !important;
+    font-weight: bolder !important;
+    color: black;
+}
+.infoimg {
+    margin-top:15px;
+    height: 300px;
+}
+
+h3 {
+    font-weight: lighter !important;
+    line-height: 150% !important;
+    position: absolute;
+    top: 75%;
+    font-size: 15px !important;
+}
+.info {
+    padding-left: 20px;
+    padding-right: 20px;
+}
