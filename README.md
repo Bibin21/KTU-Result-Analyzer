@@ -9,8 +9,6 @@ A  Result Analsysis Web Application for KTU University made with .NET Framework 
 [Installing](#Installing)
 
 ## Features 
-
-### For Users 
 - [x] Signup
 - [x] Login
 - [x] Upload and Update Marks
