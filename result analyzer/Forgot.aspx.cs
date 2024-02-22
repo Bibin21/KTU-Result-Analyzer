@@ -52,7 +52,7 @@ namespace result_analyzer
                 smtp.EnableSsl = true;
                 NetworkCredential NetworkCred = new NetworkCredential();
                 NetworkCred.UserName = "ryzengamer00@gmail.com";
-                NetworkCred.Password = "eunbopnknnyxpngf";
+                NetworkCred.Password = "niqpkmqifnwfmtcg";
                 smtp.UseDefaultCredentials = true;
                 smtp.Credentials = NetworkCred;
                 smtp.Port = 587;
@@ -111,7 +111,7 @@ namespace result_analyzer
            
         }
         protected void change_pass(object sender, EventArgs e) {
-            ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('hi');", true);
+            ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('Password Changed');", true);
             string email = Convert.ToString(Session["email"]);
             string newpassword =newpass.Value;
             string repass = retypenewpass.Value;
@@ -123,6 +123,7 @@ namespace result_analyzer
                 cmd1.CommandText = "update users set password='" + newpassword + "' where useremail='" + email + "'";
                 cmd1.ExecuteNonQuery();
                 wrongrepass.Attributes.CssStyle.Add("display", "none");
+                Response.Redirect("login");
                 
              
             }
